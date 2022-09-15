@@ -37,3 +37,4 @@ notas_2 = {
 with open("prueba_02.txt", "a") as archivo:
   for letter, note in notas_2.items():
     archivo.write(letter + " - " + str(note) + "\n")
+    
